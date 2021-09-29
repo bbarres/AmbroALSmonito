@@ -2,7 +2,7 @@
 # Supporting data and code for: A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (*Ambrosia artemisiifolia* L.).
 *This repository contains the R code to produce the maps of the resistance of* Ambrosia artemisiifolia *to ALS inhibitors monitoring in France*
 
-![alt text](https://am3pap005files.storage.live.com/y4mj1vNR8vkSSlKfOnK59G9SnBv8ol8S-DMqIKrhAEzCvb2XP1zGTdTDWcuGkEY8Jt9PGvCpHe0ULIVijbkOm8wUSaQ4BmYqy0BFIIOl-Dobaw93LZj16VJw2Z39_NVeIyhzH4epNi-NRMJlDZPi2l_Vwl4QP42sYpMZ9fwgGE--rdnsBLIeCnG7vpGQr3929jL?width=1588&height=588&cropmode=none)
+![alt text](https://am3pap005files.storage.live.com/y4m49RpZvPh9DRY46YT8R6ljkEfdFEp8JH71uLojBQ9P67YWVgelGx9Iq1S6fzesPXJ3qpUn0zBLMvyGMrvvBENJE8ZHlTwwPNLy-FkzbZEpxuoH2v0x_Mkmkk8PHBwX_It9i9EUU_dUfC-u9vi2xOxXFvt_499KfzRbrmfkUgDdbWCJl7I8u8Pmr_gjfcCR2Jv?width=1584&height=588&cropmode=none)
 
 
 ## Context
