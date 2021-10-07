@@ -1,6 +1,6 @@
 ##############################################################################/
 ##############################################################################/
-#Code for plotting the phenotype maps
+#Figure 3: code for plotting the phenotype maps
 ##############################################################################/
 ##############################################################################/
 
@@ -109,7 +109,7 @@ legend(10000,6750000,
                 "Detection of resistant\nplants with tribenuron",
                 "Detection of resistant\nplants with both herbicides",
                 "Mutation of the ALS\ngene detected"),
-       cex=0.6,pt.cex=1,y.intersp=4,x.intersp=1,
+       cex=0.6,pt.cex=1,y.intersp=2.5,x.intersp=1,
        pch=c(19,19,19,19,1),
        col=c(rgb(80,140,20,255,maxColorValue=255),
              rgb(244,114,208,255,maxColorValue=255),
