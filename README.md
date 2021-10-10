@@ -30,4 +30,4 @@ You can cite the related study as follow:
 [A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.) . *accepted for publication in Scientific Reports*.](https://doi.org/10.1038/s41598-021-99306-9)
 
 If you want to use (some of) the code found on this page or if you want to cite this repository:
-+ Benoit Barrès. bbarres/AgrAphid: [Supporting data and code for: Host plant species and insecticides shape the evolution of genetic and clonal diversity in a major aphid crop pest. Zenodo; 2021.](https://zenodo.org/badge/latestdoi/41293576)
++ Benoit Barrès. bbarres/AmbroALSmonito: [Supporting data and code for: A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). Zenodo; 2021.](https://zenodo.org/badge/latestdoi/411613959)
