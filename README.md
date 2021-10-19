@@ -16,11 +16,11 @@ In this section, you will find the list of the data sets used to produce the map
   + *Code_ID*: population's ID, this is a unique string of character
   + *Latitude*: the latitude coordinate of the population in Degrees and decimal WGS84 format
   + *Longitude*: the latitude coordinate of the population in Degrees and decimal WGS84 format
-  + *Arg574*, *Arg654*, *Gln197*, *Glu376*, *Ile578*, *Leu574*, *Ser197*, *Thr197*, *Thr205-1*, *Thr205-2* and *Val205*: Mutation identified in the partial ALS gene sequence. Each column stands for one mutation. The absence of the mutation is indicated by a 0 while the presence of the mutation is indicated by 1
-  + *SeqMeth*: The sequencing method used. Either *NGS* or *Sanger*
+  + *Arg574*, *Arg654*, *Gln197*, *Glu376*, *Ile578*, *Leu574*, *Ser197*, *Thr197*, *Thr205-1*, *Thr205-2* and *Val205*: Mutation identified in the partial ALS gene sequence. Each column stands for one mutation. The absence of the mutation is indicated by a *'0'* while the presence of the mutation is indicated by *'1'*
+  + *SeqMeth*: The sequencing method used. Either *'NGS'* or *'Sanger'*
   + *SampRound*: The sampling strategy to which the population belongs to
-  + *Imz*: results of the Imazamox bioassay. *R* stands for a resistance population, *S* stands for a sensitive population and *untest* indicate population that were tested with a Imazamox bioassay
-  + *Tbn*: results of the Tribenuron bioassay. *R* stands for a resistance population, *S* stands for a sensitive population and *untest* indicate population that were tested with a Tribenuron bioassay
+  + *Imz*: results of the Imazamox bioassay. *'R'* stands for a resistance population, *'S'* stands for a sensitive population and *'untest'* indicate population that were tested with a Imazamox bioassay
+  + *Tbn*: results of the Tribenuron bioassay. *'R'* stands for a resistance population, *'S'* stands for a sensitive population and *'untest'* indicate population that were tested with a Tribenuron bioassay
 
 
 ## R scripts
