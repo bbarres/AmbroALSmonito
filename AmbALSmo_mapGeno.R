@@ -7,7 +7,7 @@
 #loading the necessary packages and data
 source("AmbALSmo_load.R")
 
-#load the specific to this script resistance results for the 2020 campaign
+#load the results of the high throughput sequencing monitoring
 databruteTOT<-read.delim(
   "data/data_carto_france.txt",
   header=TRUE,
