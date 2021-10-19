@@ -7,7 +7,7 @@
 #loading the necessary packages and data
 source("AmbALSmo_load.R")
 
-#load the resistance results for the 2020 campaign
+#load the data results for the additional maps production
 databruteTOT<-read.delim(
   "data/data_carto_france.txt",
   header=TRUE,
