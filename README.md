@@ -12,7 +12,7 @@
 ## Datasets
 In this section, you will find the list of the data sets used to produce the maps. The data files can be found in the "data" folder. For the data tables, the name of the different variables are listed and explained as well. There are 6 data sets used in this study.  
 
-+ **data_carto_france.txt:** the first data set contains the data for all the indivudals analyzed. Each line correspond to one individuals and the following information for each individuals can be found in this table: 
++ **data_carto_france.txt:** the first data set contains the data for all the individuals analyzed. Each line correspond to one individuals and the following information for each individuals can be found in this table: 
   + *Code_ID*: population's ID, this is a unique string of character
   + *Latitude*: the latitude coordinate of the population in Degrees and decimal WGS84 format
   + *Longitude*: the latitude coordinate of the population in Degrees and decimal WGS84 format
@@ -22,6 +22,14 @@ In this section, you will find the list of the data sets used to produce the map
   + *Imz*: results of the Imazamox bioassay. *'R'* stands for a resistance population, *'S'* stands for a sensitive population and *'untest'* indicate population that were tested with a Imazamox bioassay
   + *Tbn*: results of the Tribenuron bioassay. *'R'* stands for a resistance population, *'S'* stands for a sensitive population and *'untest'* indicate population that were tested with a Tribenuron bioassay
 
++ **data_carto_pheno.txt:** the second data set contains the results of the bioassays
+
++ **departe.RDATA:** the first dataset contains geographical information to plot the french administrative layer 'departement'
+
++ **regions.RDATA:** the second dataset contains geographical information to plot the french administrative layer 'regions'
+
+These two geographical data files were obtained using the data from the [IGN website](http://professionnels.ign.fr/adminexpress). The version of the data used is the "Edition Novembre 2017". 
+
 
 ## R scripts
 In this section, you will find the list of the different scripts used in the article to produce the maps with a brief description of their purpose.
@@ -30,7 +38,7 @@ In this section, you will find the list of the different scripts used in the art
 + **AmbALSmo_mapGeno.R:** the script to produce Figure 1 map, the results of the high throughput sequencing monitoring. 
 + **AmbALSmo_mapPheno.R:** the script to produce Figure 3 map, the results of the bioassay monitoring. 
 + **AmbALSmo_mapSampling.R:** the script to produce Supplementary Figure 2 map. The map displays the location of all the populations investigated in this study. 
-+ **AmbALSmo_addi_maps.R:** the script to produce additionnal maps that were not included in the final version of the manuscript. 
++ **AmbALSmo_addi_maps.R:** the script to produce additional maps that were not included in the final version of the manuscript. 
 
 
 ## Citation
