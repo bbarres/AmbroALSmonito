@@ -6,7 +6,7 @@
 
 
 ## Context
- 
+ALS inhibitors herbicide are prone to evolution of resistance against them. The monitoring of resistance is a cornerstone of the fight against it. In this study 
 
 
 ## Datasets
