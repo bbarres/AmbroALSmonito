@@ -6,7 +6,7 @@
 
 
 ## Context
-ALS inhibitors herbicide are prone to evolution of resistance against them. The monitoring of resistance is a cornerstone of the fight against it. In this study 
+ALS inhibitors herbicides are prone to evolution of resistance against them. In the fight against this phenomenon, monitoring is a cornerstone of global strategy. In this study, we have investigated the resistance of *Ambrosia artemisiifolia* using bio- and biomolecular- assays. Combining these tools, we have demonstrated the importance of non-target site resistance and the diversity of target site resistance mutation. 
 
 
 ## Datasets
