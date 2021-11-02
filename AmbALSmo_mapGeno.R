@@ -37,9 +37,9 @@ ambro<-spTransform(ambro.wgs,CRS("+init=epsg:2154"))
 op<-par(mar=c(0,0,1,0),mfrow=c(2,3))
 
 #position 197
-plot(departeLight,lwd=0.8,border=grey(0.7),
+plot(DEP_SHP,lwd=0.8,border=grey(0.7),
      main="ALS codon 197")
-plot(regionsLight,lwd=1.8,add=TRUE)
+plot(REG_SHP,lwd=1.8,add=TRUE)
 plot(ambro,pch=as.numeric(as.character(ambro$SeqMeth)),
      col="transparent",
      bg=rgb(50,100,0,150,maxColorValue=255),cex=1.1,
@@ -59,18 +59,18 @@ plot(ambro[ambro@data[,11]!=0,],
 legend(57000,7160000,
        legend=c("No mutation at 197","Gln197","Ser197","Thr197"),
        cex=1,pt.cex=1.8,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=15,col=c(rgb(50,100,0,150,maxColorValue=255),
                     "red","blue","purple"),bg="transparent",bty="n")
 legend(850000,7160000,legend=c("Sanger","NGS"),cex=1,pt.cex=1.6,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=c(2,1),col=c("black"),bg="transparent",bty="n")
 scalebar(c(191260,6060000),300000,"km",division.cex=1)
 
 #position 205
-plot(departeLight,lwd=0.8,border=grey(0.7),
+plot(DEP_SHP,lwd=0.8,border=grey(0.7),
      main="ALS codon 205")
-plot(regionsLight,lwd=1.8,add=TRUE)
+plot(REG_SHP,lwd=1.8,add=TRUE)
 plot(ambro,pch=as.numeric(as.character(ambro$SeqMeth)),
      col="transparent",
      bg=rgb(50,100,0,150,maxColorValue=255),cex=1.1,
@@ -89,18 +89,18 @@ plot(ambro[ambro@data[,14]!=0,],
      add=TRUE)
 legend(57000,7160000,
        legend=c("No mutation at 205","Thr205.1","Thr205.2","Val205"),
-       cex=1,pt.cex=1.8,y.intersp=0.7,x.intersp=0.5,
+       cex=1,pt.cex=1.8,y.intersp=0.5,x.intersp=0.5,
        pch=15,col=c(rgb(50,100,0,150,maxColorValue=255),
                     "red","blue","purple"),bg="transparent",bty="n")
 legend(850000,7160000,legend=c("Sanger","NGS"),cex=1,pt.cex=1.6,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=c(2,1),col=c("black"),bg="transparent",bty="n")
 scalebar(c(191260,6060000),300000,"km",division.cex=1)
 
 #position 376
-plot(departeLight,lwd=0.8,border=grey(0.7),
+plot(DEP_SHP,lwd=0.8,border=grey(0.7),
      main="ALS codon 376")
-plot(regionsLight,lwd=1.8,add=TRUE)
+plot(REG_SHP,lwd=1.8,add=TRUE)
 plot(ambro,pch=as.numeric(as.character(ambro$SeqMeth)),
      col="transparent",
      bg=rgb(50,100,0,150,maxColorValue=255),cex=1.1,
@@ -111,18 +111,18 @@ plot(ambro[ambro@data[,7]!=0,],
      add=TRUE)
 legend(57000,7160000,
        legend=c("No mutation at 376","Glu376"),cex=1,pt.cex=1.8,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=15,col=c(rgb(50,100,0,150,maxColorValue=255),"red"),
        bg="transparent",bty="n")
 legend(850000,7160000,legend=c("Sanger","NGS"),cex=1,pt.cex=1.6,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=c(2,1),col=c("black"),bg="transparent",bty="n")
 scalebar(c(191260,6060000),300000,"km",division.cex=1)
 
 #position 574
-plot(departeLight,lwd=0.8,border=grey(0.7),
+plot(DEP_SHP,lwd=0.8,border=grey(0.7),
      main="ALS codon 574")
-plot(regionsLight,lwd=1.8,add=TRUE)
+plot(REG_SHP,lwd=1.8,add=TRUE)
 plot(ambro,pch=as.numeric(as.character(ambro$SeqMeth)),
      col="transparent",
      bg=rgb(50,100,0,150,maxColorValue=255),cex=1.1,
@@ -137,18 +137,18 @@ plot(ambro[ambro@data[,9]!=0,],
      add=TRUE)
 legend(57000,7160000,
        legend=c("No mutation at 574","Arg574","Leu574"),cex=1,pt.cex=1.8,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=15,col=c(rgb(50,100,0,150,maxColorValue=255),"red","blue"),
        bg="transparent",bty="n")
 legend(850000,7160000,legend=c("Sanger","NGS"),cex=1,pt.cex=1.6,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=c(2,1),col=c("black"),bg="transparent",bty="n")
 scalebar(c(191260,6060000),300000,"km",division.cex=1)
 
 #position 578
-plot(departeLight,lwd=0.8,border=grey(0.7),
+plot(DEP_SHP,lwd=0.8,border=grey(0.7),
      main="ALS codon 578")
-plot(regionsLight,lwd=1.8,add=TRUE)
+plot(REG_SHP,lwd=1.8,add=TRUE)
 plot(ambro,pch=as.numeric(as.character(ambro$SeqMeth)),
      col="transparent",
      bg=rgb(50,100,0,150,maxColorValue=255),cex=1.1,
@@ -159,12 +159,12 @@ plot(ambro[ambro@data[,8]!=0,],
      add=TRUE)
 legend(57000,7160000,
        legend=c("No mutation at 578","Ile578"),cex=1,pt.cex=1.8,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=15,col=c(rgb(50,100,0,150,maxColorValue=255),"red"),
        bg="transparent",bty="n")
 scalebar(c(191260,6060000),300000,"km",division.cex=1)
 legend(850000,7160000,legend=c("Sanger","NGS"),cex=1,pt.cex=1.6,
-       y.intersp=0.7,x.intersp=0.5,
+       y.intersp=0.5,x.intersp=0.5,
        pch=c(2,1),col=c("black"),bg="transparent",bty="n")
 scalebar(c(191260,6060000),300000,"km",division.cex=1)
 

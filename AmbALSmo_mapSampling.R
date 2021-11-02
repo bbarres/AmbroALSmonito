@@ -36,8 +36,8 @@ ambro<-spTransform(ambro.wgs,CRS("+init=epsg:2154"))
 #one single map without R/S information
 op<-par(mar=c(0,0,1,0))
 #original screening
-plot(departe,lwd=0.8,border=grey(0.7))
-plot(regions,lwd=1.8,add=TRUE)
+plot(DEP_SHP,lwd=0.8,border=grey(0.7))
+plot(REG_SHP,lwd=1.8,add=TRUE)
 plot(ambro[ambro$SampRound!="Targeted",],
      pch=0,
      col=rgb(31,133,235,175,maxColorValue=255),cex=1,

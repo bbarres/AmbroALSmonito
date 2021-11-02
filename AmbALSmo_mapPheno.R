@@ -46,8 +46,8 @@ PheNew<-spTransform(PheNew.wgs,CRS("+init=epsg:2154"))
 #one map for the 4 possibilities
 op<-par(mar=c(0,1,0,0))
 #Imazamox and/or Tribenuron phenotypes
-plot(departe,lwd=0.8,border=grey(0.9))
-plot(regions,lwd=1.8,add=TRUE)
+plot(DEP_SHP,lwd=0.8,border=grey(0.9))
+plot(REG_SHP,lwd=1.8,add=TRUE)
 segments(PheNew$Longitude,PheNew$Latitude,
          PheOri$Longitude,PheOri$Latitude,
          col=grey(0.4,1),lwd=0.7)
@@ -80,6 +80,7 @@ plot(PheNew[PheNew$RS=="Mut",],
      col=rgb(10,60,200,255,maxColorValue=255),
      bg="transparent",cex=1.0,
      add=TRUE)
+#adding the legend to the map
 legend(10000,6750000,
        legend=c("No resistant\nplants detected",
                 "Detection of resistant\nplants with imazamox",
@@ -94,7 +95,9 @@ legend(10000,6750000,
              rgb(220,31,31,255,maxColorValue=255),
              rgb(10,60,200,255,maxColorValue=255)),
        bg="transparent",bty="n",xpd=TRUE)
+#adding a scale bar to the map
 scalebar(c(191260,6060000),300000,"km",division.cex=0.8)
+#adding the name of the region on the map
 text(594045.1,6502086,labels="NAQ",cex=0.9,font=2,col=grey(0.3))
 text(594045.1,6751660,labels="CVL",cex=0.9,font=2,col=grey(0.3))
 text(742229.5,6515085,labels="ARA",cex=0.9,font=2,col=grey(0.3))

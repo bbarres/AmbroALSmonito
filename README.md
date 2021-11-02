@@ -6,7 +6,7 @@
 
 
 ## Context
-ALS inhibitors herbicides are prone to evolution of resistance against them. In the fight against this phenomenon, monitoring is a cornerstone of global strategy. In this study, we have investigated the resistance of *Ambrosia artemisiifolia* using bio- and biomolecular- assays. Combining these tools, we have demonstrated the importance of non-target site resistance and the diversity of target site resistance mutation. 
+ALS inhibitors herbicides are prone to evolution of resistance against them. In the fight against this phenomenon, monitoring is a cornerstone of a global strategy. In this study, we have investigated the resistance of *Ambrosia artemisiifolia* against two ALS inhibitors herbicides using bio- and biomolecular- assays. Combining these tools, we have demonstrated the importance of non-target site resistance and the diversity of target site resistance mutations. 
 
 
 ## Datasets
@@ -24,9 +24,9 @@ In this section, you will find the list of the data sets used to produce the map
 
 + **data_carto_pheno.txt:** the second data set contains the results of the bioassays
 
-+ **departe.RDATA:** the first dataset contains geographical information to plot the french administrative layer 'departement'
++ **DEP_SHP.RDATA:** the first data set contains geographical information to plot the french administrative layer 'departement'
 
-+ **regions.RDATA:** the second dataset contains geographical information to plot the french administrative layer 'regions'
++ **REG_SHP.RDATA:** the second data set contains geographical information to plot the french administrative layer 'regions'
 
 These two geographical data files were obtained using the data from the [IGN website](http://professionnels.ign.fr/adminexpress). The version of the data used is the "Edition Novembre 2017". 
 
