@@ -10,9 +10,9 @@ ALS inhibitors herbicides are prone to evolution of resistance against them. In 
 
 
 ## Datasets
-In this section, you will find the list of the data sets used to produce the maps. The data files can be found in the "data" folder. For the data tables, the name of the different variables are listed and explained as well. There are 6 data sets used in this study.  
+In this section, you will find the list of the data sets used to produce the maps. The data files can be found in the "data" folder. For the data tables, the name of the different variables are listed and explained as well. There are 4 data sets used in this study.  
 
-+ **data_carto_france.txt:** the first data set contains the data for all the individuals analyzed. Each line correspond to one individuals and the following information for each individuals can be found in this table: 
++ **data_carto_france.txt:** the first data set contains the data for all the populations analyzed. Each line correspond to one population. The following information for each population can be found in this table: 
   + *Code_ID*: population's ID, this is a unique string of character
   + *Latitude*: the latitude coordinate of the population in Degrees and decimal WGS84 format
   + *Longitude*: the longitude coordinate of the population in Degrees and decimal WGS84 format
@@ -22,13 +22,21 @@ In this section, you will find the list of the data sets used to produce the map
   + *Imz*: results of the Imazamox bioassay. *'R'* stands for a resistance population, *'S'* stands for a sensitive population and *'untest'* indicate population that were tested with a Imazamox bioassay
   + *Tbn*: results of the Tribenuron bioassay. *'R'* stands for a resistance population, *'S'* stands for a sensitive population and *'untest'* indicate population that were tested with a Tribenuron bioassay
 
-+ **data_carto_pheno.txt:** the second data set contains the results of the bioassays
++ **data_carto_pheno.txt:** the second data set contains the results of the 43 populations investigated both using bioassays and ALS sequencing. The following information for each population can be found in this table:
+  + *Code_ID*: population's ID, this is a unique string of character for each population. Each ID is listed twice in the table. One for the actual population and the other for the coordinates of the label
+  + *Latitude*: the latitude coordinate of the population or of the tag of the population in Degrees and decimal WGS84 format
+  + *Longitude*: the longitude coordinate of the population or of the tag of the population n Degrees and decimal WGS84 format
+  + *SeqMeth*: The sequencing method used. Either *'NGS'* or *'Sanger'*
+  + *SampRound*: *'origin'* for the line and coordinates related to the actual population and *'newLoc'* for the line and coordinates related to the tag of the population
+  + *Imz*: Imazamox resistance status of the population. Either *'R'*, *'S'* or *'Fail'* for resistant, sensitive or failed bioassay, respectively
+  + *Tbn*: Tribenuron resistance status of the population. Either *'R'*, *'S'* or *'Fail'* for resistant, sensitive or failed bioassay, respectively
+  + *RS*: was there one or several mutation related to target site resistance detected in the ALS sequence. Either 'Nomut' or 'Mut', if a mutation has been detected or not in the population, respectively
 
-+ **DEP_SHP.RDATA:** the first data set contains geographical information to plot the french administrative layer 'departement'
++ **DEP_SHP.RDATA:** the third data set contains geographical information to plot the french administrative layer 'departement'
 
-+ **REG_SHP.RDATA:** the second data set contains geographical information to plot the french administrative layer 'regions'
++ **REG_SHP.RDATA:** the fourth data set contains geographical information to plot the french administrative layer 'regions'
 
-These two geographical data files were obtained using the data from the [IGN website](http://professionnels.ign.fr/adminexpress). The version of the data used is the "Edition Novembre 2017". 
+These two geographical data files were obtained using the data from the [IGN website](http://professionnels.ign.fr/adminexpress). The version of the data used is the "Edition Novembre 2017".
 
 
 ## R scripts
@@ -47,4 +55,4 @@ You can cite the related study as follow:
 [A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). *Scientific Reports*, 11:19904, 2021. doi.org/10.1038/s41598-021-99306-9.](https://doi.org/10.1038/s41598-021-99306-9)
 
 If you want to use (some of) the code found on this page or if you want to cite this repository:
-+ Benoit Barrès. bbarres/AmbroALSmonito: [Supporting data and code for: A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). Zenodo; 2021.](https://zenodo.org/badge/latestdoi/411613959)
++ Benoit Barrès. [Supporting data and code for: A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). Zenodo; 2021.](https://zenodo.org/badge/latestdoi/411613959)
