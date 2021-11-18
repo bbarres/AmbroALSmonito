@@ -30,7 +30,7 @@ In this section, you will find the list of the data sets used to produce the map
   + *SampRound*: *'origin'* for the line and coordinates related to the actual population and *'newLoc'* for the line and coordinates related to the tag of the population
   + *Imz*: Imazamox resistance status of the population. Either *'R'*, *'S'* or *'Fail'* for resistant, sensitive or failed bioassay, respectively
   + *Tbn*: Tribenuron resistance status of the population. Either *'R'*, *'S'* or *'Fail'* for resistant, sensitive or failed bioassay, respectively
-  + *RS*: was there one or several mutation related to target site resistance detected in the ALS sequence. Either 'Nomut' or 'Mut', if a mutation has been detected or not in the population, respectively
+  + *RS*: was there one or several mutation related to target site resistance detected in the ALS sequence. Either *'Nomut'* or *'Mut'*, if a mutation has been detected or not in the population, respectively
 
 + **DEP_SHP.RDATA:** the third data set contains geographical information to plot the french administrative layer 'departement'
 
