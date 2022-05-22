@@ -52,7 +52,7 @@ In this section, you will find the list of the different scripts used in the art
 ## Citation
 You can cite the related study as follow: 
 + Loubet I., Caddoux L., Fontaine S., Michel S., Pernin F., Barrès B., Le Corre V. and Délye C.
-[A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). *Scientific Reports*, 11:19904, 2021. doi.org/10.1038/s41598-021-99306-9.](https://doi.org/10.1038/s41598-021-99306-9)
+[A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). *Scientific Reports*, 11:19904, 2021. doi:10.1038/s41598-021-99306-9.](https://doi.org/10.1038/s41598-021-99306-9)
 
 If you want to use (some of) the code found on this page or if you want to cite this repository:
-+ Benoit Barrès. [Supporting data and code for: A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). Zenodo; 2021.](https://zenodo.org/badge/latestdoi/411613959)
++ Benoit Barrès. [Supporting data and code for: A high diversity of mechanisms endows ALS-inhibiting herbicide resistance in the invasive common ragweed (Ambrosia artemisiifolia L.). Zenodo.](https://zenodo.org/badge/latestdoi/411613959)
